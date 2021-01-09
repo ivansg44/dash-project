@@ -1,65 +1,52 @@
 elements = [
-    # Data
+    # x-axis
     {
-        "data": {"id": "one", "label": "ST512\nA"},
-        "position": {"x": 50, "y": 10},
-        "classes": "data-node"
-    },
-    {
-        "data": {"id": "two", "label": "ST512\nB"},
-        "position": {"x": 150, "y": 10},
-        "classes": "data-node"
-    },
-    {
-        "data": {"source": "one", "target": "two"},
-        "classes": "data-edge"
-    },
-    # X-axis
-    {
-        "data": {"id": "x-0", "label": "0"},
-        "position": {"x": 0, "y": 200},
-        "classes": "x-axis-node"
-    },
-    {
-        "data": {"id": "x-1", "label": "100"},
-        "position": {"x": 100, "y": 200},
-        "classes": "x-axis-node"
-    },
-    {
-        "data": {"id": "x-2", "label": "200"},
-        "position": {"x": 200, "y": 200},
-        "classes": "x-axis-node"
-    },
-    {
-        "data": {"source": "x-0", "target": "x-1"},
-        "classes": "x-axis-edge"
-    },
-    {
-        "data": {"source": "x-1", "target": "x-2"},
-        "classes": "x-axis-edge"
-    },
-    # Y-axis
-    {
-        "data": {"id": "y-0", "label": "0"},
-        "position": {"x": 0, "y": 200},
-        "classes": "y-axis-node"
-    },
-    {
-        "data": {"id": "y-1", "label": "100"},
-        "position": {"x": 0, "y": 100},
-        "classes": "y-axis-node"
-    },
-    {
-        "data": {"id": "y-2", "label": "200"},
+        "data": {"id": "x-start"},
         "position": {"x": 0, "y": 0},
-        "classes": "y-axis-node"
+        "classes": "axis-node"
     },
     {
-        "data": {"source": "y-0", "target": "y-1"},
-        "classes": "y-axis-edge"
+        "data": {"id": "x-end"},
+        "position": {"x": 1000, "y": 0},
+        "classes": "axis-node"
     },
     {
-        "data": {"source": "y-1", "target": "y-2"},
-        "classes": "y-axis-edge"
+        "data": {"id": "oct-2011", "label": "Oct\n2011"},
+        "position": {"x": 1000/8 * 1, "y": 0},
+        "classes": "axis-node"
+    },
+    {
+        "data": {"id": "sep-2012", "label": "Sep\n2012"},
+        "position": {"x": 1000/8 * 2, "y": 0},
+        "classes": "axis-node"
+    },
+    {
+        "data": {"id": "jun-2012", "label": "Jun\n2012"},
+        "position": {"x": 1000/8 * 3, "y": 0},
+        "classes": "axis-node"
+    },
+    {
+        "data": {"id": "jul-2012", "label": "Jul\n2012"},
+        "position": {"x": 1000/8 * 4, "y": 0},
+        "classes": "axis-node"
+    },
+    {
+        "data": {"id": "nov-2014", "label": "Nov\n2014"},
+        "position": {"x": 1000/8 * 5, "y": 0},
+        "classes": "axis-node"
+    },
+    {
+        "data": {"id": "dec-2014", "label": "Dec\n2014"},
+        "position": {"x": 1000/8 * 6, "y": 0},
+        "classes": "axis-node"
+    },
+    {
+        "data": {"id": "jan-2015", "label": "Jan\n2015"},
+        "position": {"x": 1000/8 * 7, "y": 0},
+        "classes": "axis-node"
+    },
+    {
+        "data": {"source": "x-start", "target": "x-end"},
+        "classes": "axis-edge"
     }
 ]

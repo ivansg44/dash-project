@@ -1,51 +1,17 @@
 [
   {
-    "selector": ".data-edge",
-    "style": {
-      "curve-style": "bezier",
-      "line-color": "black",
-      "target-arrow-color": "black",
-      "target-arrow-shape": "triangle"
-    }
-  },
-  {
-    "selector": ".data-node",
-    "style": {
-      "background-color": "lightgrey",
-      "content": "data(label)",
-      "shape": "rectangle",
-      "padding": "100%",
-      "text-valign": "center",
-      "text-wrap": "wrap",
-      "width": "label"
-    }
-  },
-  {
-    "selector": ".x-axis-edge",
+    "selector": ".axis-edge",
     "style": {
       "line-color": "black"
     }
   },
   {
-    "selector": ".x-axis-node",
+    "selector": ".axis-node",
     "style": {
       "background-opacity": "0",
       "content": "data(label)",
-      "text-valign": "bottom"
-    }
-  },            {
-  "selector": ".y-axis-edge",
-  "style": {
-    "line-color": "black"
-  }
-},
-  {
-    "selector": ".y-axis-node",
-    "style": {
-      "background-opacity": "0",
-      "content": "data(label)",
-      "text-halign": "left",
-      "text-valign": "center"
+      "text-valign": "bottom",
+      "text-wrap": "wrap"
     }
   }
 ]
