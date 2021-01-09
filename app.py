@@ -14,9 +14,11 @@ with open("stylesheet.json") as fp:
 app.layout = html.Div([
     cyto.Cytoscape(
         id="cytoscape-two-nodes",
-        layout={"name": "preset"},
+        layout={"name": "preset", "padding": 0},
+        style={"width": "100%", "height": "75vh"},
         stylesheet=stylesheet,
-        elements=elements
+        elements=elements,
+        userZoomingEnabled=False
     )
 ])
 
