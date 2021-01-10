@@ -79,4 +79,31 @@ elements = [
         "position": {"x": 0, "y": 800/4 * 3},
         "classes": "y-axis-node"
     },
+    # Divider lines
+    {
+        "data": {"id": "left-divider-1.5"},
+        "position": {"x": 0, "y": 800 / 4 * 1.5},
+        "classes": "y-axis-node"
+    },
+    {
+        "data": {"id": "right-divider-1.5"},
+        "position": {"x": 800, "y": 800 / 4 * 1.5},
+        "classes": "y-axis-node"
+    },
+    {
+        "data": {"id": "left-divider-2.5"},
+        "position": {"x": 0, "y": 800 / 4 * 2.5},
+        "classes": "y-axis-node"
+    },
+    {
+        "data": {"id": "right-divider-2.5"},
+        "position": {"x": 800, "y": 800 / 4 * 2.5},
+        "classes": "y-axis-node"
+    },
+    {
+        "data": {"source": "left-divider-1.5", "target": "right-divider-1.5"}
+    },
+    {
+        "data": {"source": "left-divider-2.5", "target": "right-divider-2.5"}
+    },
 ]
