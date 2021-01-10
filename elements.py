@@ -71,38 +71,38 @@ elements = [
     },
     {
         "data": {"id": "tn4401a-1", "label": "Tn4401\nTn4401a-1\nIncFll(k)"},
-        "position": {"x": start_coord, "y": 800 / 2 * 0},
+        "position": {"x": start_coord, "y": 800 / 4 * 0},
         "classes": "y-axis-node"
     },
     {
         "data": {"id": "tn4401b-2", "label": "Tn4401\nTn4401b-2\nIncN"},
-        "position": {"x": start_coord, "y": 800 / 2 * 1},
+        "position": {"x": start_coord, "y": 800 / 4 * 2},
         "classes": "y-axis-node"
     },
     {
         "data": {"id": "tn4401b-1", "label": "Tn4401\nTn4401b-1\nIncP,L/M"},
-        "position": {"x": start_coord, "y": 800 / 2 * 2},
+        "position": {"x": start_coord, "y": 800 / 4 * 4},
         "classes": "y-axis-node"
     },
     # Divider lines
     {
         "data": {"id": "left-divider-1.5"},
-        "position": {"x": start_coord, "y": 800 / 2 * 0.5},
+        "position": {"x": start_coord, "y": 800 / 4 * 0.5},
         "classes": "y-axis-node"
     },
     {
         "data": {"id": "right-divider-1.5"},
-        "position": {"x": end_coord, "y": 800 / 2 * 0.5},
+        "position": {"x": end_coord, "y": 800 / 4 * 0.5},
         "classes": "y-axis-node"
     },
     {
         "data": {"id": "left-divider-2.5"},
-        "position": {"x": start_coord, "y": 800 / 2 * 1.5},
+        "position": {"x": start_coord, "y": 800 / 4 * 3.5},
         "classes": "y-axis-node"
     },
     {
         "data": {"id": "right-divider-2.5"},
-        "position": {"x": end_coord, "y": 800 / 2 * 1.5},
+        "position": {"x": end_coord, "y": 800 / 4 * 3.5},
         "classes": "y-axis-node"
     },
     {
