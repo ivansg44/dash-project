@@ -1,13 +1,18 @@
+padding = 800 * 0.1
+# Start and end coordinates for both axes
+start_coord = 0 - padding
+end_coord = 800 + padding
+
 elements = [
     # x-axis
     {
         "data": {"id": "x-start"},
-        "position": {"x": 0, "y": 800},
+        "position": {"x": start_coord, "y": end_coord},
         "classes": "x-axis-node"
     },
     {
         "data": {"id": "x-end"},
-        "position": {"x": 800, "y": 800},
+        "position": {"x": end_coord, "y": end_coord},
         "classes": "x-axis-node"
     },
     {
@@ -16,48 +21,48 @@ elements = [
     },
     {
         "data": {"id": "oct-2011", "label": "Oct\n2011"},
-        "position": {"x": 800/8 * 1, "y": 800},
+        "position": {"x": 800/6 * 0, "y": end_coord},
         "classes": "x-axis-node"
     },
     {
         "data": {"id": "sep-2012", "label": "Sep\n2012"},
-        "position": {"x": 800/8 * 2, "y": 800},
+        "position": {"x": 800/6 * 1, "y": end_coord},
         "classes": "x-axis-node"
     },
     {
         "data": {"id": "jun-2012", "label": "Jun\n2012"},
-        "position": {"x": 800/8 * 3, "y": 800},
+        "position": {"x": 800/6 * 2, "y": end_coord},
         "classes": "x-axis-node"
     },
     {
         "data": {"id": "jul-2012", "label": "Jul\n2012"},
-        "position": {"x": 800/8 * 4, "y": 800},
+        "position": {"x": 800/6 * 3, "y": end_coord},
         "classes": "x-axis-node"
     },
     {
         "data": {"id": "nov-2014", "label": "Nov\n2014"},
-        "position": {"x": 800/8 * 5, "y": 800},
+        "position": {"x": 800/6 * 4, "y": end_coord},
         "classes": "x-axis-node"
     },
     {
         "data": {"id": "dec-2014", "label": "Dec\n2014"},
-        "position": {"x": 800/8 * 6, "y": 800},
+        "position": {"x": 800/6 * 5, "y": end_coord},
         "classes": "x-axis-node"
     },
     {
         "data": {"id": "jan-2015", "label": "Jan\n2015"},
-        "position": {"x": 800/8 * 7, "y": 800},
+        "position": {"x": 800/6 * 6, "y": end_coord},
         "classes": "x-axis-node"
     },
     # y-axis
     {
         "data": {"id": "y-start"},
-        "position": {"x": 0, "y": 0},
+        "position": {"x": start_coord, "y": start_coord},
         "classes": "x-axis-node"
     },
     {
         "data": {"id": "y-end"},
-        "position": {"x": 0, "y": 800},
+        "position": {"x": start_coord, "y": end_coord},
         "classes": "x-axis-node"
     },
     {
@@ -66,38 +71,38 @@ elements = [
     },
     {
         "data": {"id": "tn4401a-1", "label": "Tn4401\nTn4401a-1\nIncFll(k)"},
-        "position": {"x": 0, "y": 800/4 * 1},
+        "position": {"x": start_coord, "y": 800 / 2 * 0},
         "classes": "y-axis-node"
     },
     {
         "data": {"id": "tn4401b-2", "label": "Tn4401\nTn4401b-2\nIncN"},
-        "position": {"x": 0, "y": 800/4 * 2},
+        "position": {"x": start_coord, "y": 800 / 2 * 1},
         "classes": "y-axis-node"
     },
     {
         "data": {"id": "tn4401b-1", "label": "Tn4401\nTn4401b-1\nIncP,L/M"},
-        "position": {"x": 0, "y": 800/4 * 3},
+        "position": {"x": start_coord, "y": 800 / 2 * 2},
         "classes": "y-axis-node"
     },
     # Divider lines
     {
         "data": {"id": "left-divider-1.5"},
-        "position": {"x": 0, "y": 800 / 4 * 1.5},
+        "position": {"x": start_coord, "y": 800 / 2 * 0.5},
         "classes": "y-axis-node"
     },
     {
         "data": {"id": "right-divider-1.5"},
-        "position": {"x": 800, "y": 800 / 4 * 1.5},
+        "position": {"x": end_coord, "y": 800 / 2 * 0.5},
         "classes": "y-axis-node"
     },
     {
         "data": {"id": "left-divider-2.5"},
-        "position": {"x": 0, "y": 800 / 4 * 2.5},
+        "position": {"x": start_coord, "y": 800 / 2 * 1.5},
         "classes": "y-axis-node"
     },
     {
         "data": {"id": "right-divider-2.5"},
-        "position": {"x": 800, "y": 800 / 4 * 2.5},
+        "position": {"x": end_coord, "y": 800 / 2 * 1.5},
         "classes": "y-axis-node"
     },
     {
