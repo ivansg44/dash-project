@@ -121,34 +121,34 @@ elements = [
     # ST512
     {
         "data": {"id": "st512-a", "label": "ST512\nA", "height": node_height},
-        "position": {"x": graph_height/6 * 0, "y": 800/4 * 0},
+        "position": {"x": graph_height/6 * 0, "y": graph_height/4 * 0},
         "classes": "square-node"
     },
     {
         "data": {"id": "st512-b", "label": "ST512\nB", "height": node_height},
-        "position": {"x": graph_height/6 * 1, "y": 800/4 * 0},
+        "position": {"x": graph_height/6 * 1, "y": graph_height/4 * 0},
         "classes": "square-node"
     },
     # ST252
     {
         "data": {"id": "st252-c", "label": "ST252\nC", "height": node_height},
-        "position": {"x": graph_height/6 * 2, "y": 800/4 * 1},
+        "position": {"x": graph_height/6 * 2, "y": graph_height/4 * 1},
         "classes": "square-node"
     },
     {
         "data": {"id": "st252-f", "label": "ST252\nF", "height": node_height},
-        "position": {"x": graph_height/6 * 4, "y": 800/4 * 1},
+        "position": {"x": graph_height/6 * 4, "y": graph_height/4 * 1},
         "classes": "square-node"
     },
     # ST354
     {
         "data": {"id": "st354-g", "label": "ST354\nG", "height": node_height},
-        "position": {"x": graph_height/6 * 4, "y": 800/4 * 2},
+        "position": {"x": graph_height/6 * 4, "y": graph_height/4 * 2},
         "classes": "circle-node"
     },
     {
         "data": {"id": "st354-h", "label": "ST354\nH", "height": node_height},
-        "position": {"x": graph_height/6 * 5, "y": 800/4 * 2},
+        "position": {"x": graph_height/6 * 5, "y": graph_height/4 * 2},
         "classes": "circle-node"
     },
     # ST1846
