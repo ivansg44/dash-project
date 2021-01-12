@@ -72,5 +72,21 @@
       "text-valign": "bottom",
       "text-wrap": "wrap"
     }
+  },
+  {
+    "selector": ".data-edge",
+    "style": {
+      "curve-style": "straight",
+      "line-color": "black",
+      "width": "1px",
+      "target-arrow-color": "black",
+      "target-arrow-shape": "triangle"
+    }
+  },
+  {
+    "selector": ".dotted-edge",
+    "style": {
+      "line-style": "dashed"
+    }
   }
 ]

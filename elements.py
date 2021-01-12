@@ -185,5 +185,34 @@ elements = [
                  },
         "position": {"x": 800/6 * 4, "y": 800/4 * 4},
         "classes": "triangle-node"
+    },
+    # Data edges
+    {
+        "data": {"source": "st512-a", "target": "st512-b"},
+        "classes": "data-edge"
+    },
+    {
+        "data": {"source": "st252-c", "target": "st252-f"},
+        "classes": "data-edge"
+    },
+    {
+        "data": {"source": "st252-c", "target": "st354-g"},
+        "classes": "data-edge dotted-edge"
+    },
+    {
+        "data": {"source": "st252-c", "target": "st1846-d"},
+        "classes": "data-edge dotted-edge"
+    },
+    {
+        "data": {"source": "st252-f", "target": "st354-g"},
+        "classes": "data-edge dotted-edge"
+    },
+    {
+        "data": {"source": "st354-g", "target": "st354-h"},
+        "classes": "data-edge"
+    },
+    {
+        "data": {"source": "st1846-d", "target": "st1846-i"},
+        "classes": "data-edge"
     }
 ]
