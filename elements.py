@@ -1,3 +1,5 @@
+# TODO: could calculate height based on longest label in graph
+
 padding = 800 * 0.1
 
 # Start and end coordinates for both axes
@@ -188,31 +190,59 @@ elements = [
     },
     # Data edges
     {
-        "data": {"source": "st512-a", "target": "st512-b"},
+        "data": {
+            "source": "st512-a",
+            "target": "st512-b",
+            "label": "4 SNVs\n\u2800\n\u2800"
+        },
         "classes": "data-edge"
     },
     {
-        "data": {"source": "st252-c", "target": "st252-f"},
+        "data": {
+            "source": "st252-c",
+            "target": "st252-f",
+            "label": "3 SNVs\n\u2800\n\u2800"
+        },
         "classes": "data-edge"
     },
     {
-        "data": {"source": "st252-c", "target": "st354-g"},
+        "data": {
+            "source": "st252-c",
+            "target": "st354-g",
+            "label": "OR\n\u2800\n\u2800"
+        },
         "classes": "data-edge dotted-edge"
     },
     {
-        "data": {"source": "st252-c", "target": "st1846-d"},
+        "data": {
+            "source": "st252-c",
+            "target": "st1846-d",
+            "label": "\u2800\n\u2800\npRFLPA1"
+        },
         "classes": "data-edge dotted-edge"
     },
     {
-        "data": {"source": "st252-f", "target": "st354-g"},
+        "data": {
+            "source": "st252-f",
+            "target": "st354-g",
+            "label": "\u2800\n\u2800\npRFLPA1"
+        },
         "classes": "data-edge dotted-edge"
     },
     {
-        "data": {"source": "st354-g", "target": "st354-h"},
+        "data": {
+            "source": "st354-g",
+            "target": "st354-h",
+            "label": "38 SNVs\n\u2800\npRFLPA1"
+        },
         "classes": "data-edge"
     },
     {
-        "data": {"source": "st1846-d", "target": "st1846-i"},
+        "data": {
+            "source": "st1846-d",
+            "target": "st1846-i",
+            "label": "6 SNVs\n\u2800\npRFLPA1"
+        },
         "classes": "data-edge"
     }
 ]

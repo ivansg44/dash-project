@@ -77,10 +77,13 @@
     "selector": ".data-edge",
     "style": {
       "curve-style": "straight",
+      "label": "data(label)",
       "line-color": "black",
       "width": "1px",
       "target-arrow-color": "black",
-      "target-arrow-shape": "triangle"
+      "target-arrow-shape": "triangle",
+      "text-rotation": "autorotate",
+      "text-wrap": "wrap"
     }
   },
   {
