@@ -62,5 +62,15 @@
       "height": "data(height)",
       "width": "data(height)"
     }
+  },
+  {
+    "selector": ".parent-node",
+    "style": {
+      "background-opacity": "0",
+      "border-opacity": 0,
+      "content": "data(label)",
+      "text-valign": "bottom",
+      "text-wrap": "wrap"
+    }
   }
 ]

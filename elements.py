@@ -150,10 +150,15 @@ elements = [
     },
     # ST1846
     {
+        "data": {"id": "st1846-d-parent", "label": "Urine"},
+        "classes": "parent-node"
+    },
+    {
         "data": {
             "id": "st1846-d",
             "label": "ST1846\nD",
-            "height": node_height
+            "height": node_height,
+            "parent": "st1846-d-parent"
         },
         "position": {"x": 800/6 * 3, "y": 800 / 4 * 3},
         "classes": "square-node"
@@ -169,8 +174,16 @@ elements = [
     },
     # Wound
     {
-        "data": {"id": "wound", "label": "E", "height": node_height},
+        "data": {"id": "wound-parent", "label": "Wound"},
+        "classes": "parent-node"
+    },
+    {
+        "data": {"id": "wound",
+                 "label": "E",
+                 "height": node_height,
+                 "parent": "wound-parent"
+                 },
         "position": {"x": 800/6 * 4, "y": 800/4 * 4},
         "classes": "triangle-node"
-    },
+    }
 ]
