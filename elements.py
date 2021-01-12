@@ -1,5 +1,5 @@
 # TODO: could calculate graph_height based on longest label in graph
-graph_height = 800
+graph_height = 1200
 
 padding = graph_height * 0.1
 
