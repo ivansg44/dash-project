@@ -23,5 +23,44 @@
       "text-valign": "center",
       "text-wrap": "wrap"
     }
+  },
+  {
+    "selector": ".square-node",
+    "style": {
+      "background-opacity": "0",
+      "border-width": "2px",
+      "content": "data(label)",
+      "shape": "square",
+      "text-valign": "center",
+      "text-wrap": "wrap",
+      "height": "data(height)",
+      "width": "data(height)"
+    }
+  },
+  {
+    "selector": ".circle-node",
+    "style": {
+      "background-opacity": "0",
+      "border-width": "2px",
+      "content": "data(label)",
+      "shape": "circle",
+      "text-valign": "center",
+      "text-wrap": "wrap",
+      "height": "data(height)",
+      "width": "data(height)"
+    }
+  },
+  {
+    "selector": ".triangle-node",
+    "style": {
+      "background-opacity": "0",
+      "border-width": "2px",
+      "content": "data(label)",
+      "shape": "triangle",
+      "text-valign": "center",
+      "text-wrap": "wrap",
+      "height": "data(height)",
+      "width": "data(height)"
+    }
   }
 ]

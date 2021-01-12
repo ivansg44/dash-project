@@ -1,7 +1,11 @@
 padding = 800 * 0.1
+
 # Start and end coordinates for both axes
 start_coord = 0 - padding
 end_coord = 800 + padding
+
+# Node heights
+node_height = 800/5 * 0.5
 
 elements = [
     # x-axis
@@ -110,5 +114,63 @@ elements = [
     },
     {
         "data": {"source": "left-divider-2.5", "target": "right-divider-2.5"}
+    },
+    # ST512
+    {
+        "data": {"id": "st512-a", "label": "ST512\nA", "height": node_height},
+        "position": {"x": 800/6 * 0, "y": 800/4 * 0},
+        "classes": "square-node"
+    },
+    {
+        "data": {"id": "st512-b", "label": "ST512\nB", "height": node_height},
+        "position": {"x": 800/6 * 1, "y": 800/4 * 0},
+        "classes": "square-node"
+    },
+    # ST252
+    {
+        "data": {"id": "st252-c", "label": "ST252\nC", "height": node_height},
+        "position": {"x": 800/6 * 2, "y": 800/4 * 1},
+        "classes": "square-node"
+    },
+    {
+        "data": {"id": "st252-f", "label": "ST252\nF", "height": node_height},
+        "position": {"x": 800/6 * 4, "y": 800/4 * 1},
+        "classes": "square-node"
+    },
+    # ST354
+    {
+        "data": {"id": "st354-g", "label": "ST354\nG", "height": node_height},
+        "position": {"x": 800/6 * 4, "y": 800/4 * 2},
+        "classes": "circle-node"
+    },
+    {
+        "data": {"id": "st354-h", "label": "ST354\nH", "height": node_height},
+        "position": {"x": 800/6 * 5, "y": 800/4 * 2},
+        "classes": "circle-node"
+    },
+    # ST1846
+    {
+        "data": {
+            "id": "st1846-d",
+            "label": "ST1846\nD",
+            "height": node_height
+        },
+        "position": {"x": 800/6 * 3, "y": 800 / 4 * 3},
+        "classes": "square-node"
+    },
+    {
+        "data": {
+            "id": "st1846-i",
+            "label": "ST1846\nI",
+            "height": node_height
+        },
+        "position": {"x": 800/6 * 6, "y": 800 / 4 * 3},
+        "classes": "square-node"
+    },
+    # Wound
+    {
+        "data": {"id": "wound", "label": "E", "height": node_height},
+        "position": {"x": 800/6 * 4, "y": 800/4 * 4},
+        "classes": "triangle-node"
     },
 ]
